@@ -39,6 +39,7 @@
     </style>
     <script>
       tailwind.config = {
+        darkMode: 'class',
         theme: {
           extend: {
             colors: {
@@ -69,7 +70,7 @@
 }
 </script>
 </head>
-  <body class="bg-gradient-to-br from-lovely-50 via-white to-lovely-pink h-screen w-screen overflow-hidden touch-none">
+  <body class="bg-gradient-to-br from-lovely-50 via-white to-lovely-pink h-screen w-screen overflow-hidden touch-none dark:from-slate-900 dark:via-slate-800 dark:to-slate-900 transition-colors duration-300">
     <div id="root" class="h-full w-full"></div>
     <script type="module" src="/index.tsx"></script>
   </body>
